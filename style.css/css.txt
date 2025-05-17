@@ -1,0 +1,84 @@
+/* Import de la police manuscrite */
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #a8c0ff, #d4a5ff);
+  color: #2c2c54;
+}
+
+header {
+  background-color: rgba(64, 54, 104, 0.85);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+}
+
+.logo {
+  font-family: 'Great Vibes', cursive;
+  font-size: 2.8em;
+  color: #f0e6ff;
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #f0e6ff;
+  font-weight: 600;
+  font-size: 1.1em;
+  padding: 6px 12px;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+  background-color: #8a79ff;
+}
+
+main {
+  padding: 60px 20px;
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.welcome-section p {
+  font-size: 1.3em;
+  margin-bottom: 30px;
+  font-style: italic;
+}
+
+.btn-commencer {
+  background-color: #7b67d7;
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  padding: 14px 40px;
+  font-size: 1.3em;
+  border-radius: 50px;
+  transition: background-color 0.3s ease;
+  display: inline-block;
+}
+
+.btn-commencer:hover {
+  background-color: #5a3eb9;
+}
+
+footer {
+  margin-top: 100px;
+  text-align: center;
+  font-size: 0.9em;
+  color: #f0e6ff;
+  padding-bottom: 20px;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Secrets et Mélodies</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header>
+    <h1 class="logo">Secrets et Mélodies</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html" class="active">Accueil</a></li>
+        <li><a href="jeu.html">Jouer</a></li>
+        <li><a href="persos.html">Personnages</a></li>
+        <li><a href="profil.html">Profil</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="welcome-section">
+      <p>Bienvenue dans <strong>Secrets et Mélodies</strong>, un jeu où les émotions se mêlent à la musique... Choisis tes chemins, découvre tes secrets, et laisse parler ton cœur.</p>
+      <a href="jeu.html" class="btn-commencer">Commencer l’aventure</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Secrets et Mélodies - Tous droits réservés</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Secrets et Mélodies - Jeu</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1 class="logo">Secrets et Mélodies</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="jeu.html" class="active">Jouer</a></li>
+        <li><a href="persos.html">Personnages</a></li>
+        <li><a href="profil.html">Profil</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Interface du jeu</h2>
+    <p>Ici, ton aventure commencera très bientôt ! Tu pourras découvrir des épisodes, faire des choix, et vivre ton histoire.</p>
+    <div style="margin-top: 40px; font-style: italic;">
+      (À terme, on pourra intégrer ton jeu Ren’Py ici ou un moteur en HTML)
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 Secrets et Mélodies</p>
+  </footer>
+</body>
+</html>

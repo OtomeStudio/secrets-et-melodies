@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Secrets et Mélodies - Personnages</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1 class="logo">Secrets et Mélodies</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="jeu.html">Jouer</a></li>
+        <li><a href="persos.html" class="active">Personnages</a></li>
+        <li><a href="profil.html">Profil</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Personnages</h2>
+    <p>Voici quelques-uns des personnages que tu rencontreras dans l'histoire.</p>
+
+    <div class="perso-card">
+      <h3>Lucas</h3>
+      <p>Ton meilleur ami d’enfance, toujours là pour toi... ou presque.</p>
+    </div>
+
+    <div class="perso-card">
+      <h3>Ethan</h3>
+      <p>Un mystérieux garçon qui ne parle à presque personne. Il cache quelque chose...</p>
+    </div>
+
+    <div class="perso-card">
+      <h3>Jayden</h3>
+      <p>Chaleureux et drôle, il joue de la guitare et adore faire sourire les autres.</p>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 Secrets et Mélodies</p>
+  </footer>
+</body>
+</html>
