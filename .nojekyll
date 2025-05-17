@@ -1,4 +1,1 @@
-touch .nojekyll
-git add .nokekyll
-git commit -m "Ajout fichier nojekyll pour désactiver Jekyll"
-git push
+
